@@ -1,0 +1,32 @@
+/******* Base Style *****/
+body {
+	font-family: 'Dancing Script', Helvetica, sans-serif;
+	background-color: #FFE4B5;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+p {
+	font-size: 20px;
+}
+/************* Desktop Layout ************/
+@media (min-width: 992px) {
+	.col-lg-12 {
+		float: left;
+		width: 100%;
+	}
+}
+
+/******************* Tablet Layout *******************/
+@media (min-width: 768px) and (max-width: 991px) {
+	.col-md-12 {
+		float: left;
+		width: 100%;
+	}
+}
+/*** Our Hearts ***/
+.redheart {
+	color:#ff0000;
+}
