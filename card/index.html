@@ -1,20 +1,40 @@
+<!-- Đây là toàn bộ code cho cấu trúc và nội dung tấm thiệp nha. Trước tiên, chị cần tạo một folder chứa 3 files: index.html, style.css và một file ảnh đặt tên tùy ý chị nếu chị muốn thêm hình vào thiệp. Bắt đầu! -->
 <!DOCTYPE html>
 <html>
 <head>
+	<!-- Đây là kiểu mã ký tự mình sử dụng viết. Như Unicode đó chị-->
 	<meta charset="utf-8">
+
+	<!-- Đây là phần canh chỉnh hiển thị thiệp trên các thiết bị cho chuẩn bề ngang -->
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<!-- Đây là title chị sẽ thấy hiển thị trên tab của trình duyệt khi mở file lên. Chị có thể thay đổi: Xóa Mymy Wedding và viết tùy ý chị-->
 	<title>Mymy Wedding</title>
+	
+	<!-- Đây là link đến file style.css chứa kiểu trang trí màu sắc và font chữ cho thiệp. Chị nên giữ nguyên-->
 	<link rel="stylesheet" type="text/css" href="style.css">
+	
+	<!-- Đây là link đến font em dùng trong thiệp. Chị có thể kiếm font trên Google Font và copy link vào. Thay link trong "https://fonts.googleapis.com/css?family=Dancing+Script" bằng link tương ứng. sau đó qua file style.css thay phần font-family: 'Dancing Script' thành tên font tương ứng chị thích-->
 	<link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
 </head>
+
 <body>
+
+<!-- Đây là tựa đề đầu thiệp, màu hồng, canh giữa. Chị có thể viết thay vào cũng được. Thay đổi màu chữ: chị search ví dụ pink hex code (#FF1493) và thay hex code vào, nhớ giữ nguyên dấu ; Còn canh trái: text-align: left; canh phải: text-align: right; canh giữa: text-align: center; canh đều hai bên: text-align: justify -->
 <h1 style="color: #FF1493; text-align: center;">Chúc mừng chị MyMy</h1>
+
+<!-- Đây là tấm hình trong thiệp. Chị tìm tấm nào đẹp đẹp, lưu hình lại và thay đổi tên trong src="mymy-journey.jpg" thành tên file hình của chị. Width = 100% có nghĩa hình sẽ hiển thị 100% size tràn ra toàn bộ màn hình iPhone, iPad, hay laptop -->
 <img src="mymy-journey.jpg" alt="mymy on her journey" width="100%">
+
+<!-- Dưới đây là toàn bộ nội dung tấm thiệp. Hãy tung hoa lời hay ý đẹp -->
 <p style="text-align: justify;">Mặc dầu hem có kim cương, iPhone, hay Audi tặng cho chị, tụi em luôn mong chị được trọn vẹn hạnh phúc từng ngày trên con đường phía trước chị đang đi.</p>
 <p style="text-align: justify;">Và mặc dầu cũng có đông đảo bá tánh ngỏ lời này, tụi em cảm thấy chị thật đẹp. Cả trong và ngoài.</p>
 <p style="text-align: justify;">Nếu kiếp sau mình gặp lại, hãy viết tên Minh... Hiếu thay vào nhé! Kidding. MyMy và Minh Nhật.</p>
 <p style="text-align: center;">Thương chị,</p>
+
+<!-- font-weight: bold là tô đậm chữ; <span class="redheart">&hearts;</span> là chèn trái tim tụi em vào -->
 <p style="text-align: center; font-weight: bold;"><span class="redheart">&hearts;</span> Hà mèo, Hiếu, và Hiền <span class="redheart">&hearts;</span></p>
 <p style="text-align: center;">Meow meow :"> </p>
 </body>
 </html>
+<!-- Đây là hết rồi ấy chị. Hehe-->
